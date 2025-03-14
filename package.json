@@ -1,0 +1,33 @@
+{
+	"name": "waffle-template",
+	"version": "0.0.0",
+	"description": "",
+	"author": "wai-lin",
+	"license": "MIT",
+	"keywords": [],
+	"main": "index.js",
+	"packageManager": "pnpm@10.5.2",
+	"scripts": {
+		"bundle": "tsup src/index.ts",
+		"test": "vitest"
+	},
+	"prettier": {
+		"semi": false,
+		"useTabs": true,
+		"singleQuote": true,
+		"trailingComma": "all",
+		"arrowParens": "always",
+		"printWidth": 100,
+		"plugins": [
+    "prettier-plugin-organize-imports"
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.10",
+		"prettier": "^3.5.3",
+		"prettier-plugin-organize-imports": "^4.1.0",
+		"tsup": "^8.4.0",
+		"typescript": "^5.8.2",
+		"vitest": "^3.0.8"
+	}
+}

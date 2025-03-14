@@ -1,0 +1,5 @@
+# NodeJS files
+node_modules/
+
+# MacOS file system
+.DS_Store
